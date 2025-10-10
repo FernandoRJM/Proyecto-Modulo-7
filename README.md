@@ -27,12 +27,12 @@ El proyecto sigue los siguientes pasos:
 10. Exposición de la API: Uso de una herramienta como Ngrok para crear un túnel seguro a la API local y hacerla accesible desde internet. (Nota: Para producción, se recomendaría una solución de despliegue en la nube).
 11. Prueba de la API: Verificación del funcionamiento de la API enviando solicitudes de prueba.
 
-Resultados
+Resultados:
 Los resultados del análisis exploratorio se presentan a través de gráficos que muestran la distribución de las características demográficas.
 
 El rendimiento del modelo se evalúa utilizando métricas como Accuracy, Precision, Recall y F1-score, así como la Matriz de Confusión. Se comparan los resultados del modelo inicial y el modelo con hiperparámetros ajustados para analizar el impacto del tuning.
 
-API REST
+API REST:
 Se ha desarrollado una API REST utilizando Flask que permite obtener predicciones de la categoría del premio Oscar.
 
 Endpoint: [URL pública de tu API] (Este URL será generado por Ngrok u otro servicio de despliegue)
